@@ -1,2 +1,0 @@
-1. The numbers were converted to string instead of numebrs, causing `result` to add the two strings together instead of adding their numeric value.
-2. I fixed the code by converting `num1` and `num2` into numbers when they are initialized in lines 5 and 6. This way, `calculateSum` uses numbers when adding instead of strings.
